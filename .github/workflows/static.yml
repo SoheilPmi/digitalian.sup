@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: './Web/DigitalCofeeShopMenu'
+          path: 'https://raw.githubusercontent.com/SoheilPmi/digitalian.sup/refs/heads/main/Web/DigitalCofeeShopMenu/Simple_CoffeShopMenu.html'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
